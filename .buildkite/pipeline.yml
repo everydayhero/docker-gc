@@ -1,0 +1,13 @@
+---
+steps:
+  - name: ":docker: 1.11.2"
+    command: ".buildkite/bin/build 1.11.2"
+    branches: "master"
+    agents:
+      queue: build
+
+  - name: ":docker: 1.12.4"
+    command: ".buildkite/bin/build 1.12.4"
+    branches: "master"
+    agents:
+      queue: build
