@@ -11,3 +11,9 @@ steps:
     branches: "master"
     agents:
       queue: build
+
+  - name: ":docker: 1.13.1"
+    command: ".buildkite/bin/build 1.13.1"
+    branches: "master"
+    agents:
+      queue: build
