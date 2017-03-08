@@ -17,3 +17,9 @@ steps:
     branches: "master"
     agents:
       queue: build
+
+  - name: ":docker: 17.03.0-ce"
+    command: ".buildkite/bin/build 17.03.0-ce"
+    branches: "master"
+    agents:
+      queue: build
