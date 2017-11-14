@@ -4,6 +4,6 @@ steps:
     command: ".buildkite/bin/build 17.03.0-ce"
     branches: "master"
 
-  - name: ":docker: 17.06.0-ce"
-    command: ".buildkite/bin/build 17.06.0-ce"
+  - name: ":docker: 17.06.2-ce"
+    command: ".buildkite/bin/build 17.06.2-ce"
     branches: "master"
