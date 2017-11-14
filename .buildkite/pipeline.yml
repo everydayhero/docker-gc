@@ -1,17 +1,5 @@
 ---
 steps:
-  - name: ":docker: 1.11.2"
-    command: ".buildkite/bin/build 1.11.2"
-    branches: "master"
-
-  - name: ":docker: 1.12.4"
-    command: ".buildkite/bin/build 1.12.4"
-    branches: "master"
-
-  - name: ":docker: 1.13.1"
-    command: ".buildkite/bin/build 1.13.1"
-    branches: "master"
-
   - name: ":docker: 17.03.0-ce"
     command: ".buildkite/bin/build 17.03.0-ce"
     branches: "master"
